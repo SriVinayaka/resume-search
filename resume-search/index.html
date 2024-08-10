@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+  <link rel="stylesheet" href="./css/login.css">
+</head>
+<body>
+  <div class="yellow-square"></div>
+  <div class="login-container">
+    <h1>Login</h1>
+    <form id="loginForm" action="./html/resume.html" method="post">
+      <input type="text" id="username" name="username" placeholder="Username">
+      <br>
+      <input type="password" id="password" name="password" placeholder="Password">
+      <button type="submit" onclick="login(event)">Login</button>
+    </form>
+    <p id="error-message"></p>
+  </div>
+  <script src="./js/login.js"></script>
+</body>
+</html>
